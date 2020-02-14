@@ -1,6 +1,6 @@
 # Gitian assertions and signatures
 
-This repo contains files asserting that various contributers have built Monero using a consistent process (reproducible builds with Gitian) and cryptographically signed the results of those builds.
+This repo contains files asserting that various contributers have built ByteRub using a consistent process (reproducible builds with Gitian) and cryptographically signed the results of those builds.
 
 From [gitian.org](https://gitian.org/):
 
@@ -8,10 +8,10 @@ From [gitian.org](https://gitian.org/):
 
 ## How to contribute
 
-[<img alt="Build Status" src="https://travis-ci.org/monero-project/gitian.sigs.svg?branch=master">](https://travis-ci.org/monero-project/gitian.sigs)
+[<img alt="Build Status" src="https://travis-ci.org/byterubpay/gitian.sigs.svg?branch=master">](https://travis-ci.org/byterubpay/gitian.sigs)
 
-We need more contributors to build Monero and confirm the Gitian results.
-Please follow the **[gitian build instructions](https://github.com/monero-project/monero/blob/master/contrib/gitian/README.md)** to contribute your assertions.
+We need more contributors to build ByteRub and confirm the Gitian results.
+Please follow the **[gitian build instructions](https://github.com/byterubpay/monero/blob/master/contrib/gitian/README.md)** to contribute your assertions.
 
 ## Directory structure
 
