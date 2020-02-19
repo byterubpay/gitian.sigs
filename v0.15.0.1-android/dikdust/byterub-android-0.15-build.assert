@@ -1,10 +1,10 @@
 --- !!omap
 - out_manifest: |
-    f9cbf531049068f9c07b92a89371ff8aab6b69062077c3dfe4fa27a9956f8759  monero-aarch64-linux-android-v0.15.0.1.tar.bz2
-    ea5eac2eed4d10cb35af50182ad11edeeffc4200d2b2b8e47f0283ae06fc4185  monero-arm-linux-android-v0.15.0.1.tar.bz2
+    f9cbf531049068f9c07b92a89371ff8aab6b69062077c3dfe4fa27a9956f8759  byterub-aarch64-linux-android-v0.15.0.1.tar.bz2
+    ea5eac2eed4d10cb35af50182ad11edeeffc4200d2b2b8e47f0283ae06fc4185  byterub-arm-linux-android-v0.15.0.1.tar.bz2
 - in_manifest: |-
-    d41c4740a48448de5afd3ec4ca69177803fa02af421ed476f115c7d232f8ec84  monero-android-0.15-desc.yml
-    git:6def88ad405b39f632a91afa3aacbb92ecc63c1f monero
+    d41c4740a48448de5afd3ec4ca69177803fa02af421ed476f115c7d232f8ec84  byterub-android-0.15-desc.yml
+    git:6def88ad405b39f632a91afa3aacbb92ecc63c1f byterub
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -439,6 +439,6 @@
     d8bafa039029401eeb2974f79a050c82e21c460ae7161bedf7502c15eee83879  arm-linux-android/zeromq/zeromq-4.1.7-8498ace279c.tar.gz
     5599255636da306fea8393730572355788890a93057e9f430a119a071cf20721  arm-linux-android/zeromq/zeromq-4.1.7-8498ace279c.tar.gz.hash
 - release: v0.15.0.1-linux
-- name: monero-android-0.15
+- name: byterub-android-0.15
 - type: build
 - optionals: 

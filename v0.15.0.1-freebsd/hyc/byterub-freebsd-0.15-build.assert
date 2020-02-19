@@ -1,10 +1,10 @@
 --- !!omap
-- out_manifest: '810dbac09546a14fe6e2c276f41eebc5489bc43f91c0a85a080528ccd9ce12a8  monero-x86_64-unknown-freebsd-v0.15.0.1.tar.bz2
+- out_manifest: '810dbac09546a14fe6e2c276f41eebc5489bc43f91c0a85a080528ccd9ce12a8  byterub-x86_64-unknown-freebsd-v0.15.0.1.tar.bz2
 
 '
 - in_manifest: |-
-    c0bb7f9a7c86e264061bc327f3bb75a0deb1da84e2b68228d329249cdae85af6  monero-freebsd-0.15-desc.yml
-    git:6def88ad405b39f632a91afa3aacbb92ecc63c1f monero
+    c0bb7f9a7c86e264061bc327f3bb75a0deb1da84e2b68228d329249cdae85af6  byterub-freebsd-0.15-desc.yml
+    git:6def88ad405b39f632a91afa3aacbb92ecc63c1f byterub
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -399,6 +399,6 @@
     953760e544b301c54417c228cea4605c146123ae2e14fa5c00be3489e5471d79  x86_64-unknown-freebsd/zeromq/zeromq-4.1.7-2c9b97f43bf.tar.gz
     7837ca65d0afb39283455c1c1618911c4e5476c41becef06907d40936b39f0fa  x86_64-unknown-freebsd/zeromq/zeromq-4.1.7-2c9b97f43bf.tar.gz.hash
 - release: v0.15.0.1-freebsd
-- name: monero-freebsd-0.15
+- name: byterub-freebsd-0.15
 - type: build
 - optionals: 

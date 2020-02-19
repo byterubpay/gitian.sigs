@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: 'd743dbc3124785f65e0824efac5eaf276de44164d117369db2cf6514aaa01dd2  monero-x86_64-apple-darwin11.tar.gz
+- out_manifest: 'd743dbc3124785f65e0824efac5eaf276de44164d117369db2cf6514aaa01dd2  byterub-x86_64-apple-darwin11.tar.gz
 
 '
 - in_manifest: |-
-    6b0d9ad99b03f650e0c2fabc1e139b424b65980c04d8acf00f57a2545213d2de  monero-osx-0.14-desc.yml
+    6b0d9ad99b03f650e0c2fabc1e139b424b65980c04d8acf00f57a2545213d2de  byterub-osx-0.14-desc.yml
     fc65dd34a3665a549cf2dc005c1d13fcead9ba17cadac6dfd0ebc46435729898  MacOSX10.11.sdk.tar.gz
-    git:da8ffdfff073dab0477cfe909138f9af9e569f79 monero
+    git:da8ffdfff073dab0477cfe909138f9af9e569f79 byterub
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -371,6 +371,6 @@
     89258874d64cc7c1ec8c8c7f1e17ad1eeeb5562cdd1eee9176d42f178decac9d  x86_64-apple-darwin11/zeromq/zeromq-4.1.5-913aee67d4f.tar.gz
     1ae8ff51765670b28aa73e52eb9c03a60eec10ff709e592e670bc517ce3018d8  x86_64-apple-darwin11/zeromq/zeromq-4.1.5-913aee67d4f.tar.gz.hash
 - release: v0.14.1.1-osx
-- name: monero-osx-0.14
+- name: byterub-osx-0.14
 - type: build
 - optionals: 

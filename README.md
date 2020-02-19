@@ -11,7 +11,7 @@ From [gitian.org](https://gitian.org/):
 [<img alt="Build Status" src="https://travis-ci.org/byterubpay/gitian.sigs.svg?branch=master">](https://travis-ci.org/byterubpay/gitian.sigs)
 
 We need more contributors to build ByteRub and confirm the Gitian results.
-Please follow the **[gitian build instructions](https://github.com/byterubpay/monero/blob/master/contrib/gitian/README.md)** to contribute your assertions.
+Please follow the **[gitian build instructions](https://github.com/byterubpay/byterub/blob/master/contrib/gitian/README.md)** to contribute your assertions.
 
 ## Directory structure
 
@@ -21,8 +21,8 @@ Developers submitting their own gitian results will create a subdirectory matchi
 Example for release `v0.14.1.0`:
 
 ```
-v0.14.1.0-linux/${GH_USERNAME}/monero-linux-0.14-build.assert
-v0.14.1.0-linux/${GH_USERNAME}/monero-linux-0.14-build.assert.sig
+v0.14.1.0-linux/${GH_USERNAME}/byterub-linux-0.14-build.assert
+v0.14.1.0-linux/${GH_USERNAME}/byterub-linux-0.14-build.assert.sig
 ```
 
 If you are committing for the first time, add your pgp public key to the `gitian-pubkeys` directory in armored ASCII format and a filename of `username.asc`.

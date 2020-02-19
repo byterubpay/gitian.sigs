@@ -112,7 +112,7 @@ def verify_gpg_sigs(sig_file_paths):
     print('All signatures verified correctly.\n')
 
 def verify_file_path_naming(assert_files, sig_file_paths, user_names):
-    path_pattern = '{release_num}-{platform}/{user}/monero-{platform}-0.{version_major}-build.assert'
+    path_pattern = '{release_num}-{platform}/{user}/byterub-{platform}-0.{version_major}-build.assert'
     print('Verifying file path naming...')
     # Check that every sig has an assert:
     if len(sig_file_paths) > len(assert_files):

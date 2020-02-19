@@ -1,10 +1,10 @@
 --- !!omap
 - out_manifest: |
-    b4856d0d3389497bf103d5a4dc4e73c6a39e5be20736b3e0286e76f100c508b6  monero-i686-w64-mingw32-v0.15.0.0.zip
-    6b72b3836d179eb517154bbcb8e2119b168ae9d1054866a438aaeab9521f795f  monero-x86_64-w64-mingw32-v0.15.0.0.zip
+    b4856d0d3389497bf103d5a4dc4e73c6a39e5be20736b3e0286e76f100c508b6  byterub-i686-w64-mingw32-v0.15.0.0.zip
+    6b72b3836d179eb517154bbcb8e2119b168ae9d1054866a438aaeab9521f795f  byterub-x86_64-w64-mingw32-v0.15.0.0.zip
 - in_manifest: |-
-    7206cfb85c75f09cc9e13e8d16bba807f9d9f754e4e755ed50bf41d1cccc69b6  monero-win-0.15-desc.yml
-    git:69c488a479609df2838c14cd0cf500242758f449 monero
+    7206cfb85c75f09cc9e13e8d16bba807f9d9f754e4e755ed50bf41d1cccc69b6  byterub-win-0.15-desc.yml
+    git:69c488a479609df2838c14cd0cf500242758f449 byterub
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -385,6 +385,6 @@
     d15c6b5aa5491497aff89c8d361b87313d2c445e7bbac63b39513d8884c20179  x86_64-w64-mingw32/zeromq/zeromq-4.1.7-e0852ae4e9c.tar.gz
     86687e73ba2d96913ed3813776a1b427926261fca95c45bbc3f5c5d68d5d29d9  x86_64-w64-mingw32/zeromq/zeromq-4.1.7-e0852ae4e9c.tar.gz.hash
 - release: v0.15.0.0-win
-- name: monero-win-0.15
+- name: byterub-win-0.15
 - type: build
 - optionals: 

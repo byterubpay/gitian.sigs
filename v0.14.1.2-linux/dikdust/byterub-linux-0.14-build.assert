@@ -1,12 +1,12 @@
 --- !!omap
 - out_manifest: |
-    d462fd0f2e4010b6717de2cf6aa8d04a50e56a8fdfd3735230a2a36e63cdb9fb  monero-aarch64-linux-gnu.tar.gz
-    7f040bf1d0fec4f76064f5c8af249f1df9d5a6decd6846c3080bd749b2516280  monero-arm-linux-gnueabihf.tar.gz
-    ede3b29d085d25058268cea932190c77c276618d97fd2a859002dc01de0c54cb  monero-i686-linux-gnu.tar.gz
-    a4d1ddb9a6f36fcb985a3c07101756f544a5c9f797edd0885dab4a9de27a6228  monero-x86_64-linux-gnu.tar.gz
+    d462fd0f2e4010b6717de2cf6aa8d04a50e56a8fdfd3735230a2a36e63cdb9fb  byterub-aarch64-linux-gnu.tar.gz
+    7f040bf1d0fec4f76064f5c8af249f1df9d5a6decd6846c3080bd749b2516280  byterub-arm-linux-gnueabihf.tar.gz
+    ede3b29d085d25058268cea932190c77c276618d97fd2a859002dc01de0c54cb  byterub-i686-linux-gnu.tar.gz
+    a4d1ddb9a6f36fcb985a3c07101756f544a5c9f797edd0885dab4a9de27a6228  byterub-x86_64-linux-gnu.tar.gz
 - in_manifest: |-
-    5481ed2790d9a6661e1d91d8ec914c903c20a1b454a4d909ea9a326a99c6aac6  monero-linux-0.14-desc.yml
-    git:8f0aedfa1ad7090ff1580cdce55b152fcb5655c0 monero
+    5481ed2790d9a6661e1d91d8ec914c903c20a1b454a4d909ea9a326a99c6aac6  byterub-linux-0.14-desc.yml
+    git:8f0aedfa1ad7090ff1580cdce55b152fcb5655c0 byterub
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -573,6 +573,6 @@
     035cbbe766d2666ece724efbcba9e9a83834dea8027100ed0677d5b2bb53eeef  x86_64-linux-gnu/zeromq/zeromq-4.1.5-3d66b2548d0.tar.gz
     34da486077ee664a1eb692468a8e486865ff63aa120d26e34aa45cb235d50f37  x86_64-linux-gnu/zeromq/zeromq-4.1.5-3d66b2548d0.tar.gz.hash
 - release: v0.14.1.2-linux
-- name: monero-linux-0.14
+- name: byterub-linux-0.14
 - type: build
 - optionals: 
